@@ -9,8 +9,8 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *slow_ptr = root;
-	listint_t *fast_ptr = root;
+	listint_t *slow_ptr = list;
+	listint_t *fast_ptr = list;
 
 	while (slow_ptr != NULL && fast_ptr != NULL && fast_ptr->next != NULL)
 	{
