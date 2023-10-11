@@ -3,7 +3,7 @@
 
 def multiply_by_2(a_dictionary):
     new_dictionary = a_dictionary.copy()
-    values = list(new_dir.keys())
+    values = list(new_dctionary.keys())
     for index in values:
         new_dictionary[index] *= 2
         return new_dictionary
