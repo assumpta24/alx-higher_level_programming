@@ -4,6 +4,6 @@
 def multiply_by_2(a_dictionary):
     new_dictionary = a_dictionary.copy()
     values = list(new_dir.keys())
-    for indexs in values:
+    for index in values:
         new_dictionary[index] *= 2
         return new_dictionary
