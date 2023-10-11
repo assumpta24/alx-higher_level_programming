@@ -5,7 +5,5 @@ def uniq_add(my_list=[]):
     unique_list = set(my_list)
     number = 0
     for index in unique_list:
-        if index not in unique_list:
-            number += index
-            unique_list.add(index)
-            return (number)
+        number += index
+        return (number)
